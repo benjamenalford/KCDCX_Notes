@@ -5,6 +5,9 @@
 - http://bit.ly/reactiveForms
 - http://bit.ly/reactiveFormsSurvey
 
+- http://bitbucket.org/lyndseypadget/demo-app
+    - branch for each step
+
 - https://learnrxjs.io   - the intro to Reactive Programming you've been missing
 ** What is a reactive form?
 
@@ -50,6 +53,9 @@
 
     * Validation
         - can dynamically add and remove validators
+
+
+
 
 
 
