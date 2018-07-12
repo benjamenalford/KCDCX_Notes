@@ -1,4 +1,8 @@
 #+TITLE: From Dev to Data Scientist
+** Info:  http://dotnetdude.net
+
+** Slides: http://blog.dotnetdude.net/p/from-developer-to-data-scientist.html
+
 
 * code is a tool to solve the problem
 
@@ -58,3 +62,42 @@
 - clustering - how is thei organized
 - reinforced learning
 
+** the math
+ - basic stats
+ - stat modeling
+ - stat tests
+
+** machine learning
+- supervised - data labels and predicts output from data
+- unsupervised - data not labeled, algorithms learn from data
+- generative - generate data and let assimilate data
+
+- concpets - these 2 can address most problems
+    - k-nearest
+    - random forests
+
+** AI
+
+** skills pt2.
+* data analyst (A)
+* data engineer (B)
+* academic (Ab)
+* gernalist (AB )
+
+
+** Training
+- Coursea
+- Edx
+- udacity
+- Kaggle - competitions
+- Youttube - https://projects.iq.harvard.edu/stat110/youtube
+- bootcamps
+
+** The path
+1. fundamentals
+2. stats
+3. programming
+4. modeling
+5. text mining
+6. visulaiztions
+7. big data
