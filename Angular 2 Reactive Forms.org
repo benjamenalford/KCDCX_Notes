@@ -1,1 +1,58 @@
 ** Angular2 Reactive Forms
+
+- using Angular 6
+* Slides
+- http://bit.ly/reactiveForms
+- http://bit.ly/reactiveFormsSurvey
+
+- https://learnrxjs.io   - the intro to Reactive Programming you've been missing
+** What is a reactive form?
+
+* Angular compoent life cycle
+- constructor
+    - ngOnchange
+    - ngOninit
+    - ngDoCheck
+        - NGafterContentInit
+        - NGafterContentChecked
+        - NgAfterViewInit
+        - ngAfterViewChecked
+    -ngOnDestroy
+
+* no performance difference between template and reactive
+
+* Template driven forms are typically HTML first, bound w/ ngModel to the angular component
+    - Async
+    - event based
+        - calling your validation on blur, writing your own errors.
+    - code heavy / reptitve
+
+* Reactive Forms
+    - Synchronous
+        - easier to test / unit test
+    - uses rxjs
+    - this.formBuilder.group(new Customer()) - creates the new form group
+        - formBuilder is provided by reactiveForms
+        - will try to model the form based off of the Customer object
+    - Synchronous
+    * Abstract Controls
+        - Form Control
+            -text input, checkboxes
+        -Form group
+            -address, product details, etc
+        -form array
+            -addresses, products, etc
+    * Why Care?
+        - Forms and models are closely aligned
+            - reactive makes it impossible to have a control without a value behind it
+        - group form controls together
+        - powerful validation at any level
+
+    * Validation
+        - can dynamically add and remove validators
+
+
+
+
+
+
