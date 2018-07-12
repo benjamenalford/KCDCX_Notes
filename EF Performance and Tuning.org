@@ -36,6 +36,21 @@
 
 * Don't use .Count for a check, use .Any to verify that there are records if you don't need the count.
 
+* EF Vs. Dapper
+- dapper is faster than EF unless you disable tracking in EF , then they are quite similar
+
+* queries
+- find - only works of keyID , checks change tracer first
+- first
+- firstordefault
+- single is the worst performing ( select top x) throws exception if more than one
+- singleOrDefault
+- where
+
+* searching
+- iQueryable is the definition of the query . build and then extend the query from that.  it is not the result set. will use same base cached execution plan
+
+
 ** Errata
 * Unit Tests , use trace.write instead of console.writeline
 * .Include will include children (relations ) rather than lazy load them
