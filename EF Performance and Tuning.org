@@ -1,0 +1,47 @@
+** EF Framework Perfomance Tuning
+
+* Projects -- look at the branches for each project to see different revisions
+- https://github.com/jwooley/EFCore
+- https://github.com/jwooley/RecipeWebAPI
+
+
+* which is better Sporc or EF ?
+- depends on query and context
+- there is no silver bullet
+- you can create and call sprocs from EF when needed.
+
+* all examples here assume indexes are tuned  / applied
+
+* There will always be a slight hit from using EF over ADO due to the abstraction layer
+** Profiling
+* profilers
+    - SQL profilers
+    - intellitrace
+    - context.database.log
+    - EFProf
+    - ORMProfiler
+    - MiniProfiler
+
+- Use test execution for run one test.
+    - use profiler or another tool to view the queries on the database
+
+* Projections
+- don't use models directly, push results into a DTO
+
+* Async
+    - use Async / await to do EF queries in parallel
+    - EF is not Thread Safe!
+        - use a seperate dbcontext for concurrent queries
+        - dbcontext.contextFactory() to create a new instance of the context
+
+* Don't use .Count for a check, use .Any to verify that there are records if you don't need the count.
+
+** Errata
+* Unit Tests , use trace.write instead of console.writeline
+* .Include will include children (relations ) rather than lazy load them
+    - include will effectivly do a select * , which ignores the indexes
+* Debug DB queries
+    * context.database.log = val => trace.writeline(val);
+* By default EF tracks ALL objects for changes,   you can turn off and sometimes get a performance gain
+* You can create your indexes manually in code first w/ migrations
+* EF Core outperforms EF 6
