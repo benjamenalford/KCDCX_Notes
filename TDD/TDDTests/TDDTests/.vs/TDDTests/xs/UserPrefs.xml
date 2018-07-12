@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C66A842E-FBFA-415B-A9AB-8E31DEEE8F92}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDDTests/Program.cs">
+    <Files>
+      <File FileName="TDDTests/Program.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TDDTests PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

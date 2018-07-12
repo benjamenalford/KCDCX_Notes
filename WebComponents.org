@@ -1,0 +1,64 @@
+** Intro to web Components
+    * New API's in browser, custom tags w/o a framework
+
+    * 4 Specs
+        * Custom Elements  - write your own tags, nestable
+        * HTML Imports - include HTML pages inside pages.
+            * Link import tag.
+            * built in de-dupe
+        * template tags -  html, markup, script, styles
+            * parses but doesn't browser doesn't render
+            * browser will let you clone it and then insert into the dom
+        * Shadow DOM - encapsulate components , style blocks.
+            * hides css styles
+            * HTML examples, select, video
+
+    * API's exist on mobile currenty
+
+    * whats' google polymer
+        * Library and Project.
+        * webcomponents.org - library of of components
+
+    * tinyurl.com/comcast-toast  - example in class / workshop ( gitbub)
+
+    * usage,
+        * class sytanx , extends HTMLElement
+        * 3 'special' callbacks required.
+            * Connected
+            * diconnected
+            * attribute changed
+        * tag requires a hyphen ( so that it's not confused by browser as an internal element)
+        * createChildren needs to happen in the connected callback ( this.innerHtml = "Hello world")
+            * this reeferences the custom element
+        * diconnected gets called when element is removed from the DOM
+
+        * CSS - ShadowDOM overwrites page css
+            * this.attachShadow( {mode:open});
+                * mode open - benefit lets you referene the element
+                * mode closed - can't see shadow root, no referencing from the DOM
+            * doesn't create a complete boundry - things will go into your component
+                * adding a style tag inside applies only to the component
+                    * use :host selector to reference the component
+                    * these styles will not 'leak' out
+
+        * CSS Variables - avaiable in most all browsers now
+        * can import external CSS
+
+        * <slot>  - any childern in here take then and put them into the slot element
+            * can have named slots.
+        * ShadowDOM query selector - can't traverse into the element  - full traversing needed to reference view selenium
+
+        * Vanilla component
+            *
+
+        * Https://elix.org  - - custom Mixins
+
+        * works with all frameworks
+
+        * https://custom-elements-everywhere.com   - details on working with the frameworks
+
+        * vue and angualr can export as custom elements
+
+        * made with love shows how to integrate
+
+        * Angular Ivy - 2kb  , new angualr Renderer

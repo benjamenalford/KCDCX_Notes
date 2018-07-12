@@ -1,0 +1,5 @@
+* TDD
+
+** Ping Pong Pairing
+* one person writes the test and the next person writes the code to pass the test.
+

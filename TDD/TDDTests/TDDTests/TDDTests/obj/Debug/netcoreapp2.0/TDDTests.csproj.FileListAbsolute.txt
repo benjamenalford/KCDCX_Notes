@@ -1,0 +1,11 @@
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/bin/Debug/netcoreapp2.0/TDDTests.deps.json
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/bin/Debug/netcoreapp2.0/TDDTests.runtimeconfig.json
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/bin/Debug/netcoreapp2.0/TDDTests.runtimeconfig.dev.json
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/bin/Debug/netcoreapp2.0/TDDTests.dll
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/bin/Debug/netcoreapp2.0/TDDTests.pdb
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.csprojResolveAssemblyReference.cache
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.csproj.CoreCompileInputs.cache
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.AssemblyInfoInputs.cache
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.AssemblyInfo.cs
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.dll
+/Users/benjamenalford/Desktop/KCDC/TDD/TDDTests/TDDTests/TDDTests/obj/Debug/netcoreapp2.0/TDDTests.pdb

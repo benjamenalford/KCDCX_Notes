@@ -1,0 +1,60 @@
+#+TITLE: From Dev to Data Scientist
+
+* code is a tool to solve the problem
+
+* expected 40% growth by 2020, expected shortage of 259k jobs by 2024
+* focus on infrastructure, analytics, and applications
+* Big Data  - key metric, data size / volume
+    * records, transactions, tables, & files
+    * variety - s trutured, unsstructred, , semi structred
+    * key is complexity
+* velocity of data, amount of transactions  datapoints / time
+* big data =  velocity, volume, variety
+
+* skills
+    * Hacking / Dev
+        * tech
+        * creativity
+    * stats
+        * choose procdedure
+        * diagnose problems
+        * develop procedures
+    * machine learning is the overlap
+    * SME / Domain expertise
+        * values
+        * goals
+        * constraints
+    * Social Sciences
+
+** buzzwords
+    * Data Lake - lots of data sitting there.  parked data
+    * data mining - finding value in data
+    * unsstructred data
+    * dark data
+    * fast data
+    * edge analytics
+    * predictive analytics
+
+** skills
+    * dta acquisition
+    * data cleaning / transformatins
+    * analytics
+    * prescribing applications
+    * programming automations
+
+** the job
+    * educate the business
+    * design big data architecture
+    * look for problems to solve
+    * research new techniques
+    * ETL / Collare data for analysis
+    * implement algorithms
+    * present insights
+
+** the 5 questions
+- classification , is this a or b
+- anomaly detection - is this weird?
+- regression - how much or how many?
+- clustering - how is thei organized
+- reinforced learning
+
