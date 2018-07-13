@@ -1,0 +1,79 @@
+** 3 Math Concepts Every Dev Should Know
+- Matthew L Perry
+
+* Inudsrtry is built on Math
+
+1. predicate calculus
+2. Degrees of freedom
+3. Directed Graphs
+
+* Math is useful for
+    -Machine learning
+    -games
+    -stuff
+    - errything
+
+* Logic Reasoning / Completemess
+    -Axioms
+        - 0 is a natural number
+        - if x is natural then x+1 is natural
+    -Theorems
+        - a+b = b+a
+
+
+    * can all true statements be proven within these Theorems?
+        - Godel solved this with a negative answer
+
+    * Entscheeidungsproblem
+        -Is there always a way to determine if something is true?
+            - truth
+            - satisfiability
+            - validity
+
+
+    * Unit tests are a good example of testing truth
+
+* predicate calculus
+    - prepositions - radar is a dog
+    - predicate ( 1st level) - is x is a dog , then x is a mammal
+    - predicate ( higher order) - if x is an A , then x is a B implies if x is not a B , then x is not an A
+
+
+    * Boolean Algebra
+        -
+
+    * De Morgans's Theorems
+        - not ( a or b ) = not A and Not B
+        - Not (a and B) = Not A or Not B
+        * use when refacorting conditional logic
+
+    * quantifiers
+        - existential
+        - universal
+
+    * we can use these to review our code and validate or write our requirements
+
+* Degrees of freedom =  number of variables minus the number of contrstraints
+    - Decision Tree
+
+* Three kinds of state
+    - Independent
+    - Dependent
+    - Immutable
+
+* entity diagrams
+* concuurency
+    - shows oppurtinities for parrallism
+
+* topological order
+    - any sequence of the nodes such that the tail of each edge appears before the head
+
+
+
+
+** Errata
+    - Objectivity ( you tube channel)
+    - dotnet code contracts
+    - graphviz.org -  will graph a json dependency chart.
+
+

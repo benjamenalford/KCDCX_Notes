@@ -1,1 +1,55 @@
-* Going Serverless w/ Firebase
+** Going Serverless w/ Firebase
+
+http://bit.ly/FirebaseSample
+http://bit.ly/FirebaseQuiz   Pin: 318804
+
+firebase: http://g.co/firebase/preso
+
+codelabs: http://g.co/codelabs/preso
+
+** what is Firebase?
+- comprehensive movile development platform
+- 18 components available to build apps w/ in Firebase
+- completely event driven
+
+* Firebase Auth
+    - email and password
+    - google, facebook, twitter, and github
+    - saml
+    - phone number
+
+* hosting
+    - static hosting
+    - global CDN for all instances
+    - free SSL cert and custom domain
+
+* can host Angular, etc in Firebase using Firebase backend logic
+
+* advantages
+    - auth
+    - realtime DB
+    - ready made API
+    - security
+    - data streams
+    - file storage
+    - global hosting
+    - file security
+    - one dev console
+    - no infrastructure
+        - bandwidth, scaling , handled for you
+
+* disadvantages
+    - limited Query cabailities - document collections & JSON DB.  NoSQL.
+    - cloud only
+    - blocked in china
+    - security rules
+    - some features are mobile only
+    - google login only for Firebase console
+
+
+
+
+
+
+
+
