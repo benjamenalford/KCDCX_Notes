@@ -1,0 +1,130 @@
+** Material Design Spec: The “Why” for your CSS design
+
+ - @jayharris
+
+* proving the why behind the user interface
+
+* it's about making the users happy
+
+* why?
+    - hopefully you have a designer on your team.
+    - what does a designer do?
+        - a designer makes it pretty? wrong
+    - recognize the purpose
+        - it makes people want to use the app
+            - arguably more important than effcient code
+            - if it's not performant, it's annoying but still usable
+    - most dev teams don't have designers, this is why we have bootstrap
+
+* why do we use bootstrap?
+    - it makes pretty, but doesn't make it usable
+    - "bootstrap is to developers what wordpress is to designers"
+
+* why do users like bootstrap?
+    - they don't
+    - they don't care
+    - it's not for users, it's for developers
+
+* Approach
+    - frameworks, bootstrap not dependant on the use, just the components available.
+    - guidelines
+        - not opinionated about implementation
+        - opnianted about usage
+    - requirements , we're misguided about this
+        - features - user stories are misguided.
+            - it's not about the feature
+        - delivery
+            - it's not about delivery
+    - Consumption!
+        - it's all about Consumption
+
+* it's not making sure you can click the button and match the branding, it's about the interaction
+
+* Material Design by Google
+    - incredibly opinionated
+    - incredibly specific in how implementation
+        - it's specificity is in the why not the how
+    - Material design is a response to two facts
+        - if it's possible for the dev to screw up the design they will
+        - the alternative to no design is bad design
+    - Your UI tells the story
+    - Material is built upon industrial design and the centuries of study behind it
+    - Content
+        - focus too much on Content
+        - we interact with the container of the Content
+    - Material's metaphor is a tactile metaphor for a physical experience.
+        - quantum paper, it should interact like a sheet of paper for all containers
+            - impenetrable, solid, unbendable
+            - though it can be reshaped, split, and it can heal
+            - depth, it's paper, it's not a box
+                - thickness is a dp  = is a density independent pixel
+            - whitespace is a first class citizen
+                - not just the borders and what's between Content
+                - it's also the depth
+                - whitespace is significant
+            - depth brings:
+                -interaction
+                - focus
+                - hierarchy
+            - our use of depth must be consistent
+            - scrolling
+                - it's not the content that moves , it's the paper
+                - drop shadows show depth, they let you know that items are independently scrollable
+        - text / ink
+            - spec refers to it as ink ,   it's on the quantum paper
+            - single font face at all times
+            - simplify,  just like when you write on a sheet of paper, only one handwriting style
+            - fonts  are based on relative size ( sp ) ( rems )
+                - this is for accessibility
+                - sp =  scalable pixel
+                - never use px or pt always use rem for font size
+            - language
+                - buttons should always reflect the context of what's happening
+                    - by looking at the button, I should know what will happen without reading the message box
+                        - instead of OK and NO,  use DELETE and Cancel
+                    - order is important
+                        - the order that precedes the action should always be like a forward and back button
+                            - cancel is like back, delete is the action that goes forward
+            - color
+                - readability is the primary goal
+                - bold colors
+                - primary and secondary pallette
+                - always about contrast
+                - if you turn the colors off, and into grayscale, you'll still be able to see everything
+                - accessibility affects everyone  , not the blind
+                    - distracted drivers
+                    - cataracts
+                    - we all see color differently
+            - animation
+                - motion is important
+                - things don't magically move from point a to b , that' not how the real world works
+                - movement should be fluid and natural
+                - motion provides meaning
+                - needs to be quick
+                    - spec says that an animation entering the viewport can't be over 1/4 of a second
+                    - exiting must be ~ 1/8 of a second
+                - speed specs are device based
+                - context specific
+                - life isn't instantaneous, it's fluid
+            - context
+                - elements tie together to show the context
+            - repetition
+                - provides us the unity
+                - can't have contrast without unity
+        - these all together make everything accessible and cohesive
+            - accessibility effects everyone!
+
+        - it's about the usability
+
+    * more info:
+        - https://material.io
+
+
+
+
+
+
+
+
+
+
