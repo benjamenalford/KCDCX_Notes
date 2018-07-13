@@ -1,0 +1,40 @@
+** Machine Learning and Artificial Intelligence : Trends | Applications | Tools
+- Brian Curry ( Koch Industries)
+
+* Founded KC AI Lab
+    - over 900 members
+
+* Industry  & Trends
+    -AI - human Intelligence exhibited by machines
+    - machine Learning
+    - deep Learning
+
+* those with the data will win the AI race
+
+* transfer learning
+    - method where models are repurposed and used on multiple tasks
+
+* machine learning process
+    1. define questions
+    2. business understanding
+    3. data understanding
+    4. data prep
+    5. modeling
+    6. evalutation
+    7. deployment
+
+* Tools
+    - TensorFlow  - most popular, open sourced by google
+    - MS CNTK
+    - CAFFE
+    - THerano
+    - Amazon
+    - Torch
+    - Mlib
+
+    * sagemaker
+        - take jupyter notebook and attach to AWS
+        - tracking jobs
+        - create models
+        - create endpoint
+
