@@ -1,1 +1,62 @@
 ** Let's Launch A Website, Right Friggin' Now!
+
+- slide deck - https://AhoyLemon.github.io/KCDC2018
+- github - https://github.com/AhoyLemon
+
+* insstrutors sites
+    - http://damn.dog
+    - http://idiots.win
+    - http://greatsex.tips
+    - http://partypartypartyparty.party
+
+    - all of those sites were quick to build
+    - no backend code
+    - FUN
+
+* one thing: complex systesm make for complex systesm
+    - BUT - tight scopes allow you to think about Websites differently
+
+* creating a new site just for KCDC
+    - ubran dictionary jeopardy
+    - hollywood court reporter
+    - what is elon musk launching into space right Now
+    - Past Life Medium
+    - dress up Bjork
+    - hideous socks as a service
+    - Zoom & Enhance
+    - is this a real vice headline
+    - David Lynch Tarot
+
+
+* tech stack
+    - SASS
+        - CSS copmlied
+    - PUG
+        - python-ish front end language ( HTML )
+    - VUE
+        - JS
+
+*  preprocessor
+    - could use NPM and install errything
+        - then edit package.json and gulpfile to define how it all works together
+        - this would generate 36 megs of code before compiling
+
+    * PrePros - preprocessor that takes care of everything that NPM would take care of
+        - basically gulp in a UI
+        - writes your GULP for you
+        - $29 for a single user
+
+* app built
+* setup domain
+    - set branch to be setup in github by github pages,  this will serve index.html from github
+    - https through cloudflare
+    - route www to github
+
+    * OR
+     - without cloudlare you can send it to github {Username.github.io} as the cname for www DNS
+
+* site is now live at https://pretend.world  to see the site that was built
+
+Github repo: https://github.com/AhoyLemon/pretend.world
+
+
