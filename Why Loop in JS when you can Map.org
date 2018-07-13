@@ -1,0 +1,31 @@
+** Why Loop in JS when you can Map , Filter, Reduce
+
+* thought of hte day: for loop are broken
+    - map filter reduce can replace for loops
+
+* we spend more time reading than writing code, lets make it more readable
+
+* Array functions
+    - .filter()
+        - create a copy of original based on the test based in
+    - .map()
+        - create a new array from results of action on eery element in the calling array
+    - .reduce()
+        - applies a function against the accumulator and each element in the array ( from left to right) to reduce it to a single value
+        - two arguments get passed in
+
+- ^ gateway drugs to functional programming
+
+- the 3 are chainable
+
+* higher order functions
+    - takes one or more functions as arguments
+
+* arrow functions
+    - added in ES6
+    - shortens function syntax
+    - does not have it's own this
+
+* Using on arrays of objects
+
+
