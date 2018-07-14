@@ -1,0 +1,34 @@
+* Deep Learning with TensorFlow
+- @sethjuarez w/ MS
+- aka.ms/myq  - text him
+-
+
+* don't be affraid of AI and ML.
+* it's not that we don't know what machine Learning does, it's that we have a hard time explaining it
+* AI -> Machine Learning -> deep learning
+
+* ML is only as good as your data represents reality
+- tay represented a snapshot of humanity
+- data is biased
+
+1. process - have a good question , identify the data
+2. clean the data.
+3. build the model
+4. use model to make predictions
+
+* train the algorithm and then test data.
+    - train, dev, test
+
+* confusion matrix
+precision = tp / tp + fp   (where tp = true positive and fp = false positive)
+accuracy = tp + tn / tp+ tn +fp +fn
+
+* differnce between deep learning and machine learning
+    -
+
+** errata
+- TensorFlowSharp, c# api -  https://github.com/migueldeicaza/TensorFlowSharp
+- TensorBoard - view the optimization of the model
+- pyTorch
+gitbuh.comseathjuarez/digitz
+
