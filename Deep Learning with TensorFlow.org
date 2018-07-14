@@ -10,7 +10,7 @@
 * ML is only as good as your data represents reality
 - tay represented a snapshot of humanity
 - data is biased
-
+s
 1. process - have a good question , identify the data
 2. clean the data.
 3. build the model
