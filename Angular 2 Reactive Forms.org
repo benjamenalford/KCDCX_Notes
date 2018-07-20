@@ -8,7 +8,7 @@
 - http://bitbucket.org/lyndseypadget/demo-app
     - branch for each step
 
-- https://learnrxjs.io   - the intro to Reactive Programming you've been missing
+- https://www.learnrxjs.io/  - the intro to Reactive Programming you've been missing
 ** What is a reactive form?
 
 * Angular compoent life cycle
